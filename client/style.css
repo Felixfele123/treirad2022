@@ -33,28 +33,22 @@ canvas {
 }
 
 #game {
-    position: relative;
-    width: 640px;
-    height: 320px;
+    width: 50%;
+    text-align: center;
     margin: 0 auto;
+    flex-direction: row;
 }
 
 #tic {
-    position: relative;
     margin: 0 auto;
-    height: 318px;
     width: 318px;
     display: inline-block;
-    float: left;
 }
 
 #rules {
-    position: relative;
     width: 318px;
-    height: 318px;
     text-align: center;
     display: inline-block;
-    float: right;
 }
 
 p {
